@@ -1,6 +1,6 @@
 // Abstract
-@import "./bbstract/mixins";
-@import "./bbstract/variables";
+@import "./abstract/mixins";
+@import "./abstract/variables";
 
 // Base
 @import "./base/animations";
@@ -8,5 +8,5 @@
 @import "./base/typography";
 
 // Components
-// @import "./components/navbar";
+@import "./components/card";
 // @import "./components/meme";
