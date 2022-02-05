@@ -23,11 +23,24 @@ body {
 }
 
 .app-container {
+  padding: 38.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100vh;
   background-color: #0d192b;
+}
+
+.card {
+  border-radius: 1.5rem;
+  background-color: #14253d;
+  width: 36.9rem;
+  padding: 2.5rem;
+}
+
+.card--data__image {
+  width: 100%;
+  border-radius: 1.5rem;
 }
 /*# sourceMappingURL=main.css.map */

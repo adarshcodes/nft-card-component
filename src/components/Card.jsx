@@ -1,9 +1,9 @@
 import React from "react";
 import CardImg from "../images/image-equilibrium.jpg";
-import EtherIcon from "../images/icon-etherium.svg";
+import EtherIcon from "../images/icon-ethereum.svg";
 import ClockIcon from "../images/icon-clock.svg";
-import ViewIcon from "../images/icon-view.svg";
-import Avatar from "../images/image-avatar.png";
+// import ViewIcon from "../images/icon-view.svg";
+// import Avatar from "../images/image-avatar.png";
 
 class Card extends React.Component {
 	render() {
