@@ -13,15 +13,15 @@ class Card extends React.Component {
 					<img src={CardImg} alt="equilibrium" className="card--data__image" />
 
 					<h1 className="card--data__title">Equilibrium #3429</h1>
-					<p className="card--data__description">
-						Our Equilibrium Collection promotes balance and calm
+					<p className="card--data__description para-font">
+						Our Equilibrium collection promotes balance and calm
 					</p>
 				</div>
 
 				<div className="card--nft">
 					<div className="card--nft__pricing">
 						<img src={EtherIcon} alt="Etherium" />
-						<span>0.041ETH</span>
+						<span>0.041 ETH</span>
 					</div>
 
 					<div className="card--nft__duration">
@@ -29,6 +29,8 @@ class Card extends React.Component {
 						<span>3 days left</span>
 					</div>
 				</div>
+
+				<hr />
 			</div>
 		);
 	}
