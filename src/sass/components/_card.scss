@@ -8,6 +8,7 @@
 
 .card {
 	@include border-radius;
+	@include shadow;
 	background-color: $cardBG;
 	width: 36.9rem;
 	padding: 2.5rem;
@@ -22,6 +23,12 @@
 			font-size: 2.3rem;
 			margin-top: 2.3rem;
 			color: $White;
+			transition: all 0.5s;
+
+			&:hover {
+				color: $cyan;
+				cursor: pointer;
+			}
 		}
 
 		&__description {
@@ -69,7 +76,7 @@
 	&--creator {
 		@include flex-row;
 		align-items: center;
-		padding: 1.5rem 0;
+		padding: 1.5rem 0 1rem 0;
 
 		&__avatar {
 			width: 3.5rem;
@@ -90,6 +97,12 @@
 			span {
 				color: $White;
 				font-weight: 600;
+				transition: all 0.2s;
+
+				&:hover {
+					color: $cyan;
+					cursor: pointer;
+				}
 			}
 		}
 	}

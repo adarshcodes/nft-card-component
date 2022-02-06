@@ -34,6 +34,7 @@ body {
 
 .card {
   border-radius: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
   background-color: #14253d;
   width: 36.9rem;
   padding: 2.5rem;
@@ -48,6 +49,12 @@ body {
   font-size: 2.3rem;
   margin-top: 2.3rem;
   color: white;
+  transition: all 0.5s;
+}
+
+.card--data__title:hover {
+  color: #00fff7;
+  cursor: pointer;
 }
 
 .card--data__description {
@@ -101,7 +108,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 1.5rem 0;
+  padding: 1.5rem 0 1rem 0;
 }
 
 .card--creator__avatar {
@@ -124,5 +131,11 @@ body {
 .card--creator__info span {
   color: white;
   font-weight: 600;
+  transition: all 0.2s;
+}
+
+.card--creator__info span:hover {
+  color: #00fff7;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
