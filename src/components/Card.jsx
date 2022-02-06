@@ -1,4 +1,7 @@
+// Native Import
 import React from "react";
+
+// Images Import
 import CardImg from "../images/image-equilibrium.jpg";
 import EtherIcon from "../images/icon-ethereum.svg";
 import ClockIcon from "../images/icon-clock.svg";
