@@ -6,7 +6,7 @@ export default class Me extends React.Component {
 			<div className="attribution">
 				Coded with <i class="fad fa-heart"></i> by
 				<a
-					href="https:twitter.com/ideallyAdarsh"
+					href="https://twitter.com/ideallyadarsh"
 					target="_blank"
 					rel="noreferrer"
 				>
