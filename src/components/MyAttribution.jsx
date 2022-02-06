@@ -5,7 +5,11 @@ export default class Me extends React.Component {
 		return (
 			<div className="attribution">
 				Coded with <i class="fad fa-heart"></i> by
-				<a href="https:twitter.com/ideallyAdarsh" target="_blank">
+				<a
+					href="https:twitter.com/ideallyAdarsh"
+					target="_blank"
+					rel="noreferrer"
+				>
 					Adarshcodes
 				</a>
 			</div>
