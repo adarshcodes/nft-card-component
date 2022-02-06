@@ -33,12 +33,24 @@ body {
   background-color: #0d192b;
 }
 
+@media screen and (max-width: 500px) {
+  .app-container {
+    padding-top: 8rem;
+  }
+}
+
 .card {
   border-radius: 1.5rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
   background-color: #14253d;
   width: 36.9rem;
   padding: 2.5rem;
+}
+
+@media screen and (max-width: 400px) {
+  .card {
+    width: 34rem;
+  }
 }
 
 .card--data__image-container {
@@ -171,6 +183,7 @@ body {
   margin-top: 10rem;
   color: #8bacda;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .attribution i {
