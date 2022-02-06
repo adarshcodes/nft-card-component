@@ -28,7 +28,7 @@
 			margin-top: 2rem;
 			letter-spacing: 0.049rem;
 			line-height: 2.63rem;
-			color: $White;
+			color: $softBlue;
 			font-weight: 300;
 		}
 	}
@@ -55,7 +55,7 @@
 
 		&__duration {
 			@include flex-row-center;
-			color: $White;
+			color: $softBlue;
 			font-weight: 300;
 		}
 	}
@@ -64,5 +64,33 @@
 		border: none;
 		border-top: 0.2rem solid $line;
 		margin-top: 2.5rem;
+	}
+
+	&--creator {
+		@include flex-row;
+		align-items: center;
+		padding: 1.5rem 0;
+
+		&__avatar {
+			width: 3.5rem;
+
+			img {
+				width: 100%;
+				border: 0.2rem solid white;
+				border-radius: 50%;
+			}
+		}
+
+		&__info {
+			margin-left: 1.8rem;
+			font-size: 1.7rem;
+			color: $softBlue;
+			font-weight: 400;
+
+			span {
+				color: $White;
+				font-weight: 600;
+			}
+		}
 	}
 }

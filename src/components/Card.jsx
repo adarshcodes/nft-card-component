@@ -3,7 +3,7 @@ import CardImg from "../images/image-equilibrium.jpg";
 import EtherIcon from "../images/icon-ethereum.svg";
 import ClockIcon from "../images/icon-clock.svg";
 // import ViewIcon from "../images/icon-view.svg";
-// import Avatar from "../images/image-avatar.png";
+import Avatar from "../images/image-avatar.png";
 
 class Card extends React.Component {
 	render() {
@@ -31,6 +31,15 @@ class Card extends React.Component {
 				</div>
 
 				<hr />
+
+				<div className="card--creator">
+					<div className="card--creator__avatar">
+						<img src={Avatar} alt="Avatar" />
+					</div>
+					<p className="card--creator__info">
+						Creation of <span>Jules Wyvern</span>
+					</p>
+				</div>
 			</div>
 		);
 	}
