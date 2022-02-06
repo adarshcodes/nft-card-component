@@ -2,7 +2,7 @@ import React from "react";
 import CardImg from "../images/image-equilibrium.jpg";
 import EtherIcon from "../images/icon-ethereum.svg";
 import ClockIcon from "../images/icon-clock.svg";
-// import ViewIcon from "../images/icon-view.svg";
+import ViewIcon from "../images/icon-view.svg";
 import Avatar from "../images/image-avatar.png";
 
 class Card extends React.Component {
@@ -10,7 +10,17 @@ class Card extends React.Component {
 		return (
 			<div className="card">
 				<div className="card--data">
-					<img src={CardImg} alt="equilibrium" className="card--data__image" />
+					<div className="card--data__image-container">
+						<img
+							src={CardImg}
+							alt="equilibrium"
+							className="card--data__image"
+						/>
+
+						<div className="card--data__activeModal">
+							<img src={ViewIcon} alt="viewicon" />
+						</div>
+					</div>
 
 					<h1 className="card--data__title">Equilibrium #3429</h1>
 					<p className="card--data__description para-font">
